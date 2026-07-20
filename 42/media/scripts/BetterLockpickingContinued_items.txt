@@ -1,0 +1,42 @@
+module BetterLockpickingContinued
+{
+imports
+	{ 
+		Base 
+	}
+
+	item BetterLockpickingContinuedBobbyPin
+	{
+        DisplayCategory = Tool,
+		ItemType = base:normal,
+		Weight = 0.01,
+		Icon = BobbyPin,
+		Tooltip = Tooltip_BetterLockpickingContinuedBobbyPin,
+		WorldStaticModel = Paperclip,
+	}
+
+	item BetterLockpickingContinuedHandmadeBobbyPin
+	{
+        DisplayCategory = Tool,
+		ItemType = base:normal,
+		Weight = 0.01,
+		Icon = HandmadeBobbyPin,
+		Tooltip = Tooltip_BetterLockpickingContinuedBobbyPin,
+		WorldStaticModel = Paperclip,
+	}
+
+	item LockpickingMag
+	{
+        DisplayCategory = SkillBook,
+		ItemType = base:literature,
+		Weight = 0.1,
+		Icon = lockpicking_magazine,
+        BoredomChange = -20,
+        StressChange = -15,
+		LearnedRecipes = BetterLockpickingContinuedCreateBobbyPin;BetterLockpickingContinuedCreateBobbyPin2,
+		StaticModel = Magazine,
+		WorldStaticModel = MagazineGround,
+		Tooltip = Tooltip_BetterLockpickingContinued_LockpickingMag,
+        Tags = base:magazine,
+	}
+}
