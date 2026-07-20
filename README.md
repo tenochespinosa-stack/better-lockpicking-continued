@@ -21,3 +21,5 @@ This repository does not claim ownership of the original mod or its assets. All 
 ## Development
 
 The mod targets Project Zomboid Build 42.19. Native settings do not require an additional Workshop dependency. When changing Lua code, restart the game completely and test with a fresh save before publishing.
+
+Support this project: https://ko-fi.com/heyimulas
