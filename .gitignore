@@ -1,0 +1,9 @@
+# Local game and editor output
+*.log
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# Project Zomboid local saves and logs
+Zomboid/
