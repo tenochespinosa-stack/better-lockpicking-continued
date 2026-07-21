@@ -1,0 +1,39 @@
+module Base
+{
+
+	craftRecipe BetterLockpickingContinuedCreateBobbyPin
+	{
+		Time = 90,
+        NeedToBeLearn = true,
+        timedAction = Making,
+		Tags = InHandCraft,
+        category = Miscellaneous,
+		inputs
+		{
+			item 1 tags[base:pliers] mode:keep flags[Prop1],
+			item 1 [Base.Paperclip],
+		}
+		outputs
+		{
+			item 1 BetterLockpickingContinued.BetterLockpickingContinuedHandmadeBobbyPin,
+		}
+	}
+	
+	craftRecipe BetterLockpickingContinuedCreateBobbyPin2
+	{
+		Time = 160,
+        NeedToBeLearn = true,
+        timedAction = Making,
+		Tags = InHandCraft,
+        category = Miscellaneous,
+		inputs
+		{
+			item 1 tags[base:pliers] mode:keep flags[Prop1],
+			item 2 [Base.Wire],
+		}
+		outputs
+		{
+			item 10 BetterLockpickingContinued.BetterLockpickingContinuedHandmadeBobbyPin,
+		}
+	}
+}

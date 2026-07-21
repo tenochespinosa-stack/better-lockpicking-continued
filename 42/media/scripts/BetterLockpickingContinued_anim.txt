@@ -1,0 +1,31 @@
+/*
+module Base
+{
+	recipe Picklock
+    {
+		Animations,
+		Result:Animations,
+		Time:200,
+		AnimNode:Picklock,
+		isHidden:true,
+    }	
+
+	recipe CrowbarAction
+    {
+		Animations,
+		Result:Animations,
+		Time:200,
+		AnimNode:CrowbarAction,
+		isHidden:true,
+    }
+
+	recipe CrowbarGarageAction
+    {
+		Animations,
+		Result:Animations,
+		Time:200,
+		AnimNode:CrowbarGarageAction,
+		isHidden:true,
+    }	
+}
+*/
