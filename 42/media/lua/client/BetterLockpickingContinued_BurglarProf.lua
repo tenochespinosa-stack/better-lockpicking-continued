@@ -8,7 +8,7 @@ local function BetterLockpickingContinued_BurglarProf()
 	if player:isDead() then return end
 
 	local HeBurglar = player:getDescriptor():isCharacterProfession(CharacterProfession.BURGLAR)
-	local HasTrait = player:getDescriptor():hasTrait("nimblefingers")
+	local HasTrait = player:getDescriptor():getTraits():contains("nimblefingers")
 	local HeKnows = player:getKnownRecipes():contains("BetterLockpickingContinuedCreateBobbyPin")
 	if (HeBurglar or HasTrait) and not HeKnows then
 		player:learnRecipe("BetterLockpickingContinuedCreateBobbyPin");

@@ -1,6 +1,6 @@
 if BetterLockpickingContinued == nil then BetterLockpickingContinued = {} end
 
-Events.OnGameBoot.Add(function()
+Events.OnMainMenuEnter.Add(function()
     TraitFactory.addTrait(
         "nimblefingers",
         getText("UI_trait_nimblefingers"),
